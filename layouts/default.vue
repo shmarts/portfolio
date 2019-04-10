@@ -3,6 +3,7 @@
     <header class="header">
       <nuxt-link class="header__link header__link--name" to="/">Martin Rojo</nuxt-link>
       <a class="header__link header__link--email" href="mailto:wat.martinrojo@gmail.com">email</a>
+      <a class="header__link header__link--github" href="https://www.github.com/shmarts/" target="__blank">github</a>
       <a class="header__link header__link--twitter" href="https://twitter.com/martinrojo__" target="__blank">twitter</a>
       <a class="header__link header__link--instagram" href="https://www.instagram.com/shmvrts/" target="__blank">instagram</a>
     </header>
@@ -55,6 +56,9 @@
       }
       &email {
 
+      }
+      &github {
+        color: #6f42c1;
       }
       &twitter {
         color: #1ca1f2;
